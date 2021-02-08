@@ -1,0 +1,1241 @@
+.js{
+     background-color: rgba(134, 134, 245, 0.219);
+     color: rgb(94, 94, 248);
+     border: none;
+     margin-right: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+     border-radius: 5px;
+}
+.js:hover{
+     background-color: rgba(134, 134, 245, 0.288);
+}
+.css{
+     background-color: rgba(245, 134, 134, 0.219);
+     color: rgb(248, 94, 94);
+     border: none;
+     margin-right: 5px;
+     border-radius: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+}
+.css:hover{
+     background-color: rgba(245, 134, 134, 0.281);
+}
+.py{
+     background-color: rgba(236, 219, 67, 0.123);
+     color: rgb(255, 230, 0);
+     border: none;
+     margin-right: 5px;
+     border-radius: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+}
+.py:hover{
+     background-color: rgba(236, 219, 67, 0.199);
+}
+.php{
+     background-color: rgba(157, 73, 252, 0.274);
+     color: rgb(157, 73, 252);
+     border: none;
+     margin-right: 5px;
+     border-radius: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+}
+.php:hover{
+     background-color: rgba(157, 73, 252, 0.377);
+
+}
+.perl{
+     background-color: rgba(55, 182, 108, 0.171);
+     color: rgba(6, 207, 90, 0.692);
+     border: none;
+     margin-right: 5px;
+     border-radius: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+}
+.perl:hover{
+     background-color: rgba(55, 182, 108, 0.342);
+}
+.pip{
+     background: none;
+     border: none;
+     margin-right: 20px;
+     font-size: 35px;
+}
+.stop{
+     margin-top: 5px;
+}
+.bg-modal1
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-content1
+{
+  width: 800px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+.close1
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.code-source1{
+     font-size: 25px;
+     font-family: Consolas, 'Courier New', monospace;
+     width: 700px;
+     height: 475px;
+     border: none;
+     outline: none;
+}
+.modal
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal1
+{
+  width: 800px;
+  height: 700px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+.clo
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+} 
+.modal2
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal3
+{
+  width: 800px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-bottom: 100px;
+}
+.clo1
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}    
+.btn-py{
+     background-color: rgba(134, 134, 245, 0.219);
+     color: rgb(94, 94, 248);
+     border: none;
+     margin-left: 290px;
+     margin-top: -5px;
+     border-radius: 5px;
+     padding: 5px;
+     cursor: pointer;
+     position: absolute;
+}
+.btn-py:hover{
+     background-color: rgba(134, 134, 245, 0.308);
+}
+.modal4
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal5
+{
+  width: 1200px;
+  height: 700px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+
+}
+.clo2
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.modal6
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal7
+{
+  width: 800px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+
+}
+.clo3
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.modal-stop
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-stop1
+{
+  width: 800px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+
+}
+.btn-stop{
+     background-color: rgba(134, 134, 245, 0.219);
+     color: rgb(94, 94, 248);
+     border: none;
+     margin-left: 330px;
+     margin-top: -5px;
+     border-radius: 5px;
+     padding: 5px;
+     cursor: pointer;
+     position: absolute;
+}
+.btn-stop:hover{
+     background-color: rgba(134, 134, 245, 0.37);
+}
+.btn-stop1{
+     background-color: rgba(245, 134, 134, 0.219);
+     color: rgb(248, 94, 94);
+     border: none;
+     margin-left: 250px;
+     margin-top: -5px;
+     border-radius: 5px;
+     padding: 5px;
+     cursor: pointer;
+     position: absolute;
+     text-decoration: none;
+}
+.btn-stop1:hover{
+     background-color: rgba(245, 134, 134, 0.301);
+}
+.img{
+     width: 370px;
+     height: 200px;
+     margin-top: -10px;
+     margin-right: 600px;
+}
+.txt-stop{
+     font-size: 23px; color: rgba(0, 0, 0, 0.603);text-decoration: none; margin: 0px; text-decoration: none;
+     text-align: left;
+}
+.save{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-save1
+{
+  width: 400px;
+  height: 100px;
+  background: rgb(248, 248, 248);
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -500px;
+
+}
+.clo8
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.modal-delete
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-delete1
+{
+  width: 800px;
+  height: 300px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-bottom: 300px;
+}
+.clo9
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.btn-delete{
+     background-color: rgba(134, 134, 245, 0.219);
+     color: rgb(94, 94, 248);
+     border: none;
+     margin-left: 290px;
+     margin-top: 230px;
+     border-radius: 5px;
+     padding: 5px;
+     cursor: pointer;
+     position: absolute;
+}
+.delete-id{
+     width: 700px;
+     height: 60px;
+     margin-top: 40px;
+     font-size: 25px;
+     font-family: Consolas, 'Courier New', monospace;
+}
+.code1
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.code-view
+{
+  width: 1100px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+}
+.clo10
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.code-python{
+     font-size: 25px;
+     font-family: Consolas, 'Courier New', monospace;
+     width: 500px;
+     height: 475px;
+     border: none;
+     outline: none;
+     float: left;
+     background-color: rgb(231, 231, 255);
+     margin: 20px;
+}
+.code-php{
+     font-size: 25px;
+     font-family: Consolas, 'Courier New', monospace;
+     width: 500px;
+     height: 475px;
+     border: none;
+     outline: none;
+     float: left;
+     background-color: rgb(231, 231, 255);
+     margin: 10px;
+     margin-top: 20px;
+}
+.run
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.run1
+{
+  width: 1100px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+}
+.clo11
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.div3{
+     background-color: rgba(157, 73, 252, 0.274);
+     color: rgb(157, 73, 252);
+     border: none;
+     margin-right: 5px;
+     border-radius: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+}
+.div3:hover{
+     background-color: rgba(157, 73, 252, 0.342);
+}
+.div2{
+     background-color: rgba(55, 182, 108, 0.171);
+     color: rgba(6, 207, 90, 0.692);
+     border: none;
+     margin-right: 5px;
+     border-radius: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+}
+.div2:hover{
+     background-color: rgba(55, 182, 108, 0.384);
+}
+.div1{
+     background-color: rgba(245, 134, 134, 0.219);
+     color: rgb(248, 94, 94);
+     border: none;
+     margin-right: 5px;
+     border-radius: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+}
+.div1:hover{
+     background-color: rgba(245, 134, 134, 0.308);
+}
+.div{
+     background-color: rgba(134, 134, 245, 0.219);
+     color: rgb(94, 94, 248);
+     border: none;
+     margin-right: 5px;
+     margin-top: 7px;
+     font-size: 20px;
+     border-radius: 5px;
+}
+.div:hover{
+     background-color: rgba(134, 134, 245, 0.315);
+}
+.row{
+     background:#ffffff;color:rgb(0, 0, 0);position:fixed;top:70px;z-index:10;right:0;width:60px;height:700px;padding:.5rem;border-top-left-radius:.2rem;border-bottom-left-radius:.2rem;box-shadow:-5px 0 10px 0 rgba(0,0,0,.1);transition:all .1s ease-in-out;cursor:pointer}
+}
+html::-webkit-scrollbar {
+     display: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+html, body{overflow: hidden;}
+
+.new
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-new
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+}
+.clo12
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.demo
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-demo
+{
+  width: 500px;
+  height: 200px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-bottom: 300px;
+}
+.clo13
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.demo1
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-demo1
+{
+  width: 500px;
+  height: 200px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-bottom: 300px;
+}
+.clo14
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.demo2
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-demo2
+{
+  width: 500px;
+  height: 200px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-bottom: 300px;
+}
+.clo15
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.modal-div
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-div1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.cls
+{
+  position: absolute;
+  top: 7px;
+  right: 14px;
+  font-size: 40px;
+  cursor: pointer;
+  width: 35px;
+  height: 35px;
+}
+.input{
+  font-size: 25px;
+  font-family: Consolas, 'Courier New', monospace;
+  width: 600px;
+}
+.er{
+  margin-top: 40px;
+}
+.txt1{
+  font-size: 25px;
+  font-family: Consolas, 'Courier New', monospace;
+  width: 600px;
+  height: 200px;
+  margin: 20px;
+  
+}
+.btn-div{
+  background-color: rgba(134, 134, 245, 0.219);
+  color: rgb(94, 94, 248);
+  border: none;
+  margin-left: 250px;
+  margin-top: 40px;
+  border-radius: 5px;
+  padding: 5px;
+  cursor: pointer;
+  position: absolute;
+}
+.modal-h1
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-h11
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-h2
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-h21
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-h3
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-h31
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-p
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-p1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-a
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-a1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-span
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-span1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-sec
+{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-sec
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-img{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-img1
+{
+  width: 800px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-video{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-video1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-btn{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-btn1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-nav{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-nav1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-input{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-input1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-option{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-option1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.modal-br{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.modal-br1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.project{
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: -3%;
+  display: none;
+
+}
+.web-project{
+  width: 1100px;
+  height: 600px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  box-shadow:-5px 0 80px 0 rgba(0,0,0,.1);transition:all .1s ease-in-out;cursor:pointer;   
+}
+.txt3{
+  display: flex;
+}
+.edit{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.edit1
+{
+  width: 800px;
+  height: 500px;
+  background: white;
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  margin-top: -8%;
+}
+.welcome{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.644);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.welcome1
+{
+  width: 600px;
+  height: 550px;
+  background: rgb(0, 0, 0);
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  border-radius: 20px;
+}
+.mobile{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.644);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.mobil1
+{
+  width: 400px;
+  height: 250px;
+  background: rgb(0, 0, 0);
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  border-radius: 20px;
+}
+#style-div1{
+  display: none;
+}
+@media only screen and (max-width: 1000px){
+  .mobile{
+    display: flex;
+  }
+  .welcome{
+    display: none;
+  }
+  #toolbar{
+    display: none;
+  }
+}
+.theme{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.644);
+  position: absolute;
+  top: 0px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.theme1
+{
+  width: 1000px;
+  height: 700px;
+  background: rgb(0, 0, 0);
+  background-size:cover;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  position: relative;
+  overflow: auto;
+  border-radius: 20px;
+}
+.onewit{
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+}
+.onedork{
+  width: 500px;
+  height: 300px;
+  margin-top: 20px;
+}
