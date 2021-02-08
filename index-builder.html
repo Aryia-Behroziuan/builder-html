@@ -1,0 +1,425 @@
+<html lang="en"><head>
+     <!-- Title -->
+     <title>Builder Codefoxs- qitSource Documentation | aryia behroziuan</title>
+   
+     <!-- Required Meta Tags Always Come First -->
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   
+     <!-- Favicon -->
+     <link rel="shortcut icon" href="../favicon.ico">
+   
+     <!-- Font -->
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;display=swap" rel="stylesheet">
+   
+     <!-- CSS Implementing Plugins -->
+     <link rel="stylesheet" href="https://htmlstream.com/front/assets/css/vendor.min.css">
+     <link rel="stylesheet" href="https://htmlstream.com/front/assets/vendor/jquery-ui-dist/jquery-ui.css">
+   
+     <!-- CSS Front Template -->
+     <link rel="stylesheet" href="https://htmlstream.com/front/assets/css/theme.min.css">
+   
+     <!-- CSS Front Doc -->
+     <link rel="stylesheet" href="https://htmlstream.com/front/assets/css/docs.css">
+   </head>
+   <body>
+     <!-- ========== HEADER ========== -->
+     <header id="header" class="header header-sticky-top header-docs header-box-shadow">
+       <div class="header-section">
+         <div id="logoAndNav" class="container-fluid px-xl-7">
+           <nav class="navbar d-block d-md-flex justify-content-start">
+             <div class="d-flex align-items-center">
+               <a class="navbar-brand" href="../documentation/index.html" aria-label="Front">
+                    <h1 style="font-size: 28px; margin-top: 5px;">Codefoxs</h1>
+                 <!--<img src="https://htmlstream.com/front/assets/svg/logos/logo.svg" alt="Logo">-->
+               </a>
+               <a href="../documentation/changelog.html">
+                 <span class="badge badge-soft-primary ml-2">v3.3</span>
+               </a>
+             </div>
+   
+             <!-- Nav Links -->
+             <ul class="nav nav-classic nav-sm border-0 nav-docs-space">
+               <li class="nav-item">
+                 <a class="nav-link d-flex align-items-center px-2 px-sm-3 active" href="index.html">
+                   <svg class="d-none d-sm-block mr-2 mb-0" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" d="M1 2.5A1.5 1.5 0 012.5 1h3A1.5 1.5 0 017 2.5v3A1.5 1.5 0 015.5 7h-3A1.5 1.5 0 011 5.5v-3zM2.5 2a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3zm6.5.5A1.5 1.5 0 0110.5 1h3A1.5 1.5 0 0115 2.5v3A1.5 1.5 0 0113.5 7h-3A1.5 1.5 0 019 5.5v-3zm1.5-.5a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3zM1 10.5A1.5 1.5 0 012.5 9h3A1.5 1.5 0 017 10.5v3A1.5 1.5 0 015.5 15h-3A1.5 1.5 0 011 13.5v-3zm1.5-.5a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3zm6.5.5A1.5 1.5 0 0110.5 9h3a1.5 1.5 0 011.5 1.5v3a1.5 1.5 0 01-1.5 1.5h-3A1.5 1.5 0 019 13.5v-3zm1.5-.5a.5.5 0 00-.5.5v3a.5.5 0 00.5.5h3a.5.5 0 00.5-.5v-3a.5.5 0 00-.5-.5h-3z" clip-rule="evenodd"></path>
+                   </svg>
+                   <span class="d-none d-sm-block">Documentation</span>
+                   <span class="d-sm-none">Docs</span>
+                 </a>
+               </li>
+   
+               <li class="nav-item">
+                 <a class="nav-link d-flex align-items-center px-2 px-sm-3" href="../snippets/index.html">
+                   <svg class="d-none d-sm-block mr-2 mb-0" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" d="M14.5 13.5h-13A.5.5 0 011 13V6a.5.5 0 01.5-.5h13a.5.5 0 01.5.5v7a.5.5 0 01-.5.5zm-13 1A1.5 1.5 0 010 13V6a1.5 1.5 0 011.5-1.5h13A1.5 1.5 0 0116 6v7a1.5 1.5 0 01-1.5 1.5h-13zM2 3a.5.5 0 00.5.5h11a.5.5 0 000-1h-11A.5.5 0 002 3zm2-2a.5.5 0 00.5.5h7a.5.5 0 000-1h-7A.5.5 0 004 1z" clip-rule="evenodd"></path>
+                   </svg>
+                   Snippets
+                 </a>
+               </li>
+   
+               <li class="nav-item">
+                 <a class="nav-link d-flex align-items-center px-2 px-sm-3" target="_blank" href="../index.html">
+                   Main Demo
+                   <svg class="d-block ml-2 mb-0" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 003 14.5h8a1.5 1.5 0 001.5-1.5V9a.5.5 0 00-1 0v4a.5.5 0 01-.5.5H3a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5h4a.5.5 0 000-1H3A1.5 1.5 0 001.5 5v8zm7-11a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V2.5H9a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path>
+                     <path fill-rule="evenodd" d="M14.354 1.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                   </svg>
+                 </a>
+               </li>
+   
+               <li class="nav-item">
+                 <a class="nav-link d-none d-xl-flex align-items-center px-2 px-sm-3" target="_blank" href="https://htmlstream.com/contact-us">
+                   Get Support
+                   <svg class="d-none d-sm-block ml-2 mb-0" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" d="M1.5 13A1.5 1.5 0 003 14.5h8a1.5 1.5 0 001.5-1.5V9a.5.5 0 00-1 0v4a.5.5 0 01-.5.5H3a.5.5 0 01-.5-.5V5a.5.5 0 01.5-.5h4a.5.5 0 000-1H3A1.5 1.5 0 001.5 5v8zm7-11a.5.5 0 01.5-.5h5a.5.5 0 01.5.5v5a.5.5 0 01-1 0V2.5H9a.5.5 0 01-.5-.5z" clip-rule="evenodd"></path>
+                     <path fill-rule="evenodd" d="M14.354 1.646a.5.5 0 010 .708l-8 8a.5.5 0 01-.708-.708l8-8a.5.5 0 01.708 0z" clip-rule="evenodd"></path>
+                   </svg>
+                 </a>
+               </li>
+             </ul>
+             <!-- End Nav Links -->
+   
+             <!-- Header Search -->
+             <form class="form-inline input-group input-group-sm input-group-merge input-group-flush d-none d-lg-flex ml-auto" style="max-width: 300px;">
+               <input class="js-hs-docs-search form-control" type="text" placeholder="Search docs..." aria-label="Search docs..." aria-describedby="docsSearch" data-url="../assets/json/docs-search.json">
+               <div class="input-group-append">
+                 <span class="input-group-text" id="docsSearch">
+                   <i class="fas fa-search"></i>
+                 </span>
+               </div>
+             </form>
+             <!-- End Header Search -->
+           </nav>
+         </div>
+       </div>
+     </header>
+     <!-- ========== END HEADER ========== -->
+   
+     <!-- ========== MAIN CONTENT ========== -->
+     <main class="container-fluid space-top-3 space-top-md-2 pl-lg-7 pr-xl-7">
+       <div class="row justify-content-lg-end">
+         <!-- Sidebar -->
+         <nav class="col-lg-3 col-xl-2 hs-sidebar navbar-expand-lg px-0 ml-xl-7">
+           <div class="d-flex d-lg-none justify-content-between mb-3">
+             <!-- Sidebar Search -->
+             <form class="col form-inline input-group-sm">
+               <input class="js-hs-docs-search form-control form-control-sm w-100" type="text" placeholder="Search..." data-url="../assets/json/docs-search.json">
+             </form>
+             <!-- End Sidebar Search -->
+   
+             <!-- Responsive Toggle Button -->
+             <button class="btn btn-link pl-0" type="button" data-toggle="collapse" data-target="#sidebar-nav" aria-controls="sidebar-nav" aria-expanded="false" aria-label="Toggle navigation">
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" width="30" height="30" focusable="false">
+                 <path stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-miterlimit="10" d="M4 7h22M4 15h22M4 23h22"></path>
+               </svg>
+             </button>
+             <!-- End Responsive Toggle Button -->
+           </div>
+   
+           <!-- Sidebar Nav -->
+           <div class="collapse navbar-collapse" id="sidebar-nav">
+             <div id="sidebarNav" class="hs-sidebar-scrollbar hs-sidebar-sticky pl-2 pl-md-0 pr-2">
+               <span class="hs-sidebar-heading">Getting started</span>
+               <ul class="hs-sidebar-nav">
+                 <li class="hs-sidebar-item">
+                   <a class="hs-sidebar-link active" href="index.html">Introduction</a>
+                 </li>
+                 <li class="hs-sidebar-item">
+                   <a class="hs-sidebar-link " href="gulp.html">Gulp</a>
+                 </li>
+                 <li class="hs-sidebar-item">
+                   <a class="hs-sidebar-link " href="customization.html">Customization</a>
+                 </li>
+                 <li class="hs-sidebar-item">
+                   <a class="hs-sidebar-link " href="credits.html">Credits</a>
+                 </li>
+                 <li class="hs-sidebar-item">
+                   <a class="hs-sidebar-link " href="changelog.html">Changelog</a>
+                 </li>
+               </ul>
+   
+   
+
+             </div>
+           </div>
+           <!-- End Sidebar Nav -->
+         </nav>
+         <!-- End Sidebar -->
+   
+         <div class="col-lg-10 space-top-1 space-bottom-2">
+           <div class="pl-lg-9 pl-xl-8">
+             <div class="hs-docs-content-divider">
+               <h1>Introduction</h1>
+               <p class="lead">Get started with Front, Responsive Website Template for building responsive, mobile-first sites, with Bootstrap and a template starter page.</p>
+             </div>
+   
+             <!-- Alert -->
+             <div class="alert alert-soft-dark" role="alert">
+               <h3>Codefoxs is a framework HTML web development</h3>
+               For the time being, we do <span class="font-weight-bold">NOT</span> offer any tutorials or any other materials on how to integrate Front with any CMS, Web Application Frameworks (including Angular, Vue, React, etc.) or any other similar technology. However, since <span class="font-weight-bold">Front is a static HTML/CSS and JS template</span>, then it <em>should be compatible</em> with any backend technology and frameworks.
+             </div>
+             <!-- End Alert -->
+   
+             <!-- Alert -->
+             <div class="alert alert-soft-dark media align-items-baseline mb-6" role="alert">
+               <i class="fas fa-info-circle mr-2"></i>
+               <div class="media-body">We highly recommend to check out <a class="font-weight-bold" href="https://codeload.github.com/Aryia-Behroziuan/builder-html/zip/main" target="_blank">Download framework</a> an official Bootstrap Theme guidelines by Bootstrap core team.</div>
+             </div>
+             <!-- End Alert -->
+   
+             <!-- Heading -->
+             <h2 id="file-structure" class="hs-docs-heading">
+               File Structure <a class="anchorjs-link" href="#file-structure" aria-label="Anchor" data-anchorjs-icon="#"></a>
+             </h2>
+             <!-- End Heading -->
+   
+   
+          
+             <!-- End Heading -->
+   
+             <p>Starter template is a snippet code for blank HTML page. Use the below snippet as a way to quickly start any new blank page. If you are using Front's Gulp Toolkit, you may use HTML (Gulp) snippet code (read more about it on <a href="../documentation/gulp.html">Gulp</a> page).</p>
+   
+             <!-- Card -->
+             <div class="card card-bordered mb-7">
+               <!-- Header -->
+               <div class="card-header">
+                 <!-- Nav -->
+                 <ul class="nav nav-segment" id="navTab1" role="tablist">
+                   <li class="nav-item">
+                     <a class="nav-link active" id="nav-htmlTab1" data-toggle="pill" href="#nav-html1" role="tab" aria-controls="nav-html1" aria-selected="true">HTML</a>
+                   </li>
+                   <li class="nav-item">
+                     <a class="nav-link" id="nav-gulpTab1" data-toggle="pill" href="#nav-gulp1" role="tab" aria-controls="nav-gulp1" aria-selected="false">HTML (Gulp)</a>
+                   </li>
+                 </ul>
+                 <!-- End Nav -->
+               </div>
+               <!-- End Header -->
+   
+               <!-- Tab Content -->
+               <div class="tab-content" id="navTabContent1">
+                 <div class="tab-pane fade show active" id="nav-html1" role="tabpanel" aria-labelledby="nav-htmlTab1">
+                   <div class="code-toolbar"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+       <span class="token comment">&lt;!-- Required Meta Tags Always Come First --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1, shrink-to-fit=no<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- Title --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Hello, world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- Favicon --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>shortcut icon<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>./favicon.ico<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- Font --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&amp;display=swap<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- CSS Front Template --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>./assets/css/theme.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+   
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Hello, world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- JS Global Compulsory --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>./assets/vendor/jquery/dist/jquery.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>./assets/vendor/jquery-migrate/dist/jquery-migrate.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>./assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- JS Front --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>./assets/js/hs.core.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code></pre><div class="toolbar"><div class="toolbar-item"><a>Copy</a></div></div></div>
+                 </div>
+   
+                 <div class="tab-pane fade" id="nav-gulp1" role="tabpanel" aria-labelledby="nav-gulpTab1">
+                   <div class="code-toolbar"><pre class=" language-html"><code class=" language-html" data-lang="html"><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>en<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+       <span class="token comment">&lt;!-- Required Meta Tags Always Come First --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>utf-8<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>viewport<span class="token punctuation">"</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>width=device-width, initial-scale=1, shrink-to-fit=no<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- Title --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>Hello, world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- Favicon --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>shortcut icon<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@@autopath/favicon.ico<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- Font --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@@vars.googleFont<span class="token punctuation">"</span></span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- CSS Front Template --&gt;</span>
+       <span class="token comment">&lt;!-- bundlecss:theme [@@autopath] --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>link</span> <span class="token attr-name">rel</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>stylesheet<span class="token punctuation">"</span></span> <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@@autopath/assets/css/theme.css<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+   
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span><span class="token punctuation">&gt;</span></span>Hello, world!<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@@autopath/assets/vendor/jquery/dist/jquery.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@@autopath/assets/vendor/jquery-migrate/dist/jquery-migrate.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@@autopath/assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+   
+       <span class="token comment">&lt;!-- JS Implementing Plugins --&gt;</span>
+       <span class="token comment">&lt;!-- bundlejs:vendor [@@autopath] --&gt;</span>
+   
+       <span class="token comment">&lt;!-- JS Front --&gt;</span>
+       <span class="token comment">&lt;!-- bundlejs:theme [@@autopath] --&gt;</span>
+       <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">"</span>@@autopath/assets/js/hs.core.js<span class="token punctuation">"</span></span><span class="token punctuation">&gt;</span></span><span class="token script language-javascript"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+     <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+   <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>html</span><span class="token punctuation">&gt;</span></span></code></pre><div class="toolbar"><div class="toolbar-item"><a>Copy</a></div></div></div>
+                 </div>
+               </div>
+               <!-- End Tab Content -->
+             </div>
+             <!-- End Card -->
+   
+             <!-- Heading -->
+             <h2 id="js-structure" class="hs-docs-heading">
+               JavaScript structure <a class="anchorjs-link" href="#js-structure" aria-label="Anchor" data-anchorjs-icon="#"></a>
+             </h2>
+             <!-- End Heading -->
+   
+             <!-- Heading -->
+             <h3 id="core-js" class="hs-docs-heading mt-2">
+               Core JavaScript <a class="anchorjs-link" href="#core-js" aria-label="Anchor" data-anchorjs-icon="#"></a>
+             </h3>
+             <!-- End Heading -->
+   
+             <p>The foundation of the JavaScript structure in Front is based on one main object which does not change the root when the new functionalities are added, but instead, it only extends without affecting the behavior of the core object. The name of the object is <code>HSCore</code> and the content of this object looks like this:</p>
+   
+             <div class="code-toolbar"><pre class="rounded mb-7 language-js"><code class=" language-js" data-lang="js"><span class="token comment">/*
+   * HSCore
+   * @version: 2.0.0 (Mon, 25 Nov 2019)
+   * @requires: jQuery v3.0 or later
+   * @author: HtmlStream
+   * @event-namespace: .HSCore
+   * @license: Htmlstream Libraries (https://htmlstream.com/licenses)
+   * Copyright 2020 Htmlstream
+   */</span>
+   <span class="token string">'use strict'</span><span class="token punctuation">;</span>
+   
+   $<span class="token punctuation">.</span><span class="token function">extend</span><span class="token punctuation">(</span><span class="token punctuation">{</span>
+     HSCore<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+       init<span class="token punctuation">:</span> <span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+         <span class="token function">$</span><span class="token punctuation">(</span>document<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">ready</span><span class="token punctuation">(</span><span class="token keyword">function</span> <span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+           <span class="token comment">// Botostrap Tootltips</span>
+           <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'[data-toggle="tooltip"]'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">tooltip</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   
+           <span class="token comment">// Bootstrap Popovers</span>
+           <span class="token function">$</span><span class="token punctuation">(</span><span class="token string">'[data-toggle="popover"]'</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">popover</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+         <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+       <span class="token punctuation">}</span><span class="token punctuation">,</span>
+   
+       components<span class="token punctuation">:</span> <span class="token punctuation">{</span><span class="token punctuation">}</span>
+     <span class="token punctuation">}</span>
+   <span class="token punctuation">}</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+   
+   $<span class="token punctuation">.</span>HSCore<span class="token punctuation">.</span><span class="token function">init</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre><div class="toolbar"><div class="toolbar-item"><a>Copy</a></div></div></div>
+   
+             <!-- Heading -->
+             <h3 id="essentials-of-hscore-objects" class="hs-docs-heading">
+               Essentials of HS data-attributes <a class="anchorjs-link" href="#essentials-of-hscore-objects" aria-label="Anchor" data-anchorjs-icon="#"></a>
+             </h3>
+             <!-- End Heading -->
+   
+             <p><code>data-hs-*-options</code> - Using the date-attribute, you can completely specify the settings for all plug-in parameters (except for functions) that are in the official documentation. Special cases will be described in the documentation of the corresponding wrappers/plugins. <code>*-</code> name of the wrapper/plugin.</p>
+   
+             <p>Parameter names must be enclosed in double quotation marks <code>""</code>. <code>"param": ...</code></p>
+   
+             <p>
+               For strings, quotation marks are required.
+               <code>"stringParam": "Test string",</code>
+               <code>"hexParam": "#ff0000"</code>
+             </p>
+   
+             <p>For numbers, quotation marks are optional. <code>"intParam": 10</code></p>
+   
+             <p>For boolean values, quotation marks can lead to not obvious consequences (due to implicit type conversion). It is recommended that you specify Boolean values without quotation marks. <code>"boolParam": true</code></p>
+   
+             <p>For arrays and objects - quotation marks can lead to errors, this does not apply to elements of arrays and objects, which can be simple types (see the description for simple types above).</p>
+   
+             <div class="code-toolbar"><pre class="rounded language-html"><code class=" language-html" data-lang="html">"arrayParam": [1, "Test string", "#ff0000", false, 5],
+   "objectParam": {
+     "intParam": 1,
+     "stringParam": "Test string",
+     "hexParam": "#ff0000",
+     "boolParam": false,
+     "intParam2": 5
+   }</code></pre><div class="toolbar"><div class="toolbar-item"><a>Copy</a></div></div></div>
+   
+             <!-- Heading -->
+             <h3 id="advantages" class="hs-docs-heading">
+               Advantages <a class="anchorjs-link" href="#advantages" aria-label="Anchor" data-anchorjs-icon="#"></a>
+             </h3>
+             <!-- End Heading -->
+   
+             <ul>
+               <li>Avoiding the probabilities of conflicts between Front codes and third party plugins (libraries).</li>
+               <li>Intuitive clear architecture.</li>
+               <li>Everything is structured, each component in its own file and in its component in the main object.</li>
+               <li>The ability of extending functionality without affecting the behavior of the core object and not changing the existing functionality.</li>
+               <li>Creation of wrapper components simply solves complicated initializations structures for the users.</li>
+               <li>Very easy access to any starters components and core settings from anywhere in the template.</li>
+             </ul>
+           </div>
+         </div>
+       </div>
+     </main>
+     <!-- ========== END MAIN CONTENT ========== -->
+   
+     <!-- Go to Top -->
+     <a class="js-go-to go-to position-fixed animated fadeOutDown hs-go-to-prevent-event" href="javascript:;" style="visibility: hidden; right: 15px;" data-hs-go-to-options="{
+          &quot;offsetTop&quot;: 700,
+          &quot;position&quot;: {
+            &quot;init&quot;: {
+              &quot;right&quot;: 15
+            },
+            &quot;show&quot;: {
+              &quot;bottom&quot;: 15
+            },
+            &quot;hide&quot;: {
+              &quot;bottom&quot;: -15
+            }
+          }
+        }">
+       <i class="fas fa-angle-up"></i>
+     </a>
+     <!-- End Go to Top -->
+   
+   
+     <!-- JS Implementing Plugins -->
+     <script src="https://htmlstream.com/front/assets/js/vendor.min.js"></script>
+     <script src="https://htmlstream.com/front/assets/vendor/jquery-ui-dist/jquery-ui.min.js"></script>
+   
+     <!-- JSFront -->
+     <script src="https://htmlstream.com/front/assets/js/theme.min.js"></script>
+     <script src="https://htmlstream.com/front/assets/js/hs.autocomplete-local-search.js"></script>
+   
+     <!-- JS Plugins Init. -->
+     <script>
+       $(document).on('ready', function () {
+         // INITIALIZATION OF HEADER
+         // =======================================================
+         var header = new HSHeader($('#header')).init();
+   
+   
+         // INITIALIZATION OF GO TO
+         // =======================================================
+         $('.js-go-to').each(function () {
+           var goTo = new HSGoTo($(this)).init();
+         });
+       });
+   
+       $(window).on('load', function () {
+         // INITIALIZATION OF AUTOCOMPLET
+         // =======================================================
+         $.HSCore.components.HSLocalSearchAutocomplete.init('.js-hs-docs-search');
+       });
+     </script>
+   
+   </body></html>
